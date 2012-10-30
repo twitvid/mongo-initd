@@ -1,0 +1,10 @@
+This repository made in order to work around init.d scripts for mongo cluster: mongo-shard, mongo-configsvr, mongos
+
+In this example server uses option
+replSet=mongo-activity1-replset
+
+In production we use 3 ReplicaSets:
+mongo-activity1-replset
+mongo-activity2-replset
+mongo-activity3-replset
+
